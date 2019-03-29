@@ -34,12 +34,12 @@ let movies = [
 const getMovies = () => movies;
 
 const getById = id => {
-    const filteredMovies = movies.filter(movie => String(id) === movie.id)
+    const filteredMovies = movies.filter(movie => id === movie.id)
     return filteredMovies[0]
 }
 
 const deleteMovie = id => {
-    const cleanedMovies = movies.filter(movie => String(id) !== movie.id)
+    const cleanedMovies = movies.filter(movie => id !== movie.id)
     if(movies.length > cleanedMovies.length){
         movies = cleanedMovies;
         return true
