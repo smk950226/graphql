@@ -1,1 +1,1 @@
-console.log('start wow')
+import { GraphQLServer } from 'graphql-yoga';
