@@ -1,6 +1,12 @@
+const smkim = {
+    name: "KimSeungMin",
+    age: 25,
+    gender: "male"
+}
+
 const resolvers = {
     Query: {
-        name: () => "smkim"
+        person: () => smkim
     }
 }
 
