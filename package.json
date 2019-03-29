@@ -7,6 +7,6 @@
     "graphql-yoga": "^1.17.4"
   },
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon --exec babel-node"
   }
 }
