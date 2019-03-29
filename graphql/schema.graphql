@@ -1,9 +1,10 @@
-type Smkim{
+type Person{
     name: String!,
     age: Int!,
     gender: String!
 }
 
 type Query{
-    person: Smkim!
+    people: [Person]!
+    person(id: Int!): Person
 }
