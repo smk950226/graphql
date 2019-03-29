@@ -3,3 +3,5 @@ const resolvers = {
         name: () => "smkim"
     }
 }
+
+export default resolvers;
