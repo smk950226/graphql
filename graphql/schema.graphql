@@ -1,6 +1,7 @@
 type Person{
-    name: String!,
-    age: Int!,
+    id: Int!
+    name: String!
+    age: Int!
     gender: String!
 }
 
